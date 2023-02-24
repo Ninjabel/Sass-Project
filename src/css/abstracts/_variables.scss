@@ -1,0 +1,23 @@
+/* Cursors */
+$cursors: pointer, auto, inherit;
+
+/* Colors */
+$background-color: #080b1c;
+$text-color: white;
+$pick-color-1: #210121;
+$pick-color-2: #01210f;
+$pick-color-3: #011721;
+$pick-color-4: #210101;
+
+/* Widths */
+$sidebar-width: 20%;
+$sidebar-min-width: 270px;
+
+/* Heights */
+$navbar-height: 100px;
+$main-height: calc(100vh - 100px);
+$item-height: 180px;
+$min-height-items-container: calc(4 * $item-height);
+
+/* Borders */
+$main-border: 1px solid #ffffff84;

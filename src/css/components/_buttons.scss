@@ -1,0 +1,25 @@
+@use '../abstracts/variables.scss' as *;
+
+@each $cursor in $cursors {
+    .cursor-#{$cursor} {
+        cursor: $cursor;
+    }
+}
+
+.nav-button {
+    border: 1px solid #ffffffba;
+    width: 100px;
+    height: 40px;
+    &:nth-child(1) {
+        background-color: $pick-color-1;
+    } 
+    &:nth-child(2) {
+        background-color: $pick-color-2;
+    } 
+    &:nth-child(3) {
+        background-color: $pick-color-3;
+    } 
+    &:nth-child(4) {
+        background-color: $pick-color-4;
+    } 
+}

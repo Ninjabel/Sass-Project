@@ -1,0 +1,227 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  color: #fff;
+  background-color: #080b1c;
+  font-family: Roboto Condensed, sans-serif;
+  line-height: 22px;
+  overflow-x: hidden;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.navbar {
+  width: 100%;
+  min-width: 408px;
+  height: 100px;
+  background-color: #000;
+  border-bottom: 1px solid #ffffff84;
+}
+
+.sidebar {
+  width: 20%;
+  min-width: 270px;
+  height: calc(100vh - 100px);
+  border-right: 1px solid #ffffff84;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main-section {
+  width: 100%;
+  height: calc(100vh - 100px);
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.footer {
+  width: 100%;
+  background-color: #000;
+  border-top: 1px solid #ffffff84;
+}
+
+.logo-wrapper {
+  width: 20%;
+  min-width: 270px;
+  height: 100px;
+  background-color: #000;
+  border-bottom: 1px solid #ffffff84;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-buttons-wrapper {
+  width: 90%;
+  min-width: 500px;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sidebar-items-wrapper {
+  width: 100%;
+  height: 96%;
+  min-height: 720px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-section-items-wrapper {
+  width: 90%;
+  min-width: 480px;
+  height: 96%;
+  min-height: 720px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-text-wrapper {
+  width: 90%;
+  min-width: 720px;
+  text-align: center;
+  margin: auto;
+}
+
+.footer-text-wrapper p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  width: 120px;
+  height: -moz-min-content;
+  height: min-content;
+  content: url("SassProject-logo.59e344ef.png");
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-auto {
+  cursor: auto;
+}
+
+.cursor-inherit {
+  cursor: inherit;
+}
+
+.nav-button {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #ffffffba;
+}
+
+.nav-button:nth-child(1) {
+  background-color: #210121;
+}
+
+.nav-button:nth-child(2) {
+  background-color: #01210f;
+}
+
+.nav-button:nth-child(3) {
+  background-color: #011721;
+}
+
+.nav-button:nth-child(4) {
+  background-color: #210101;
+}
+
+.sidebar-item {
+  width: 180px;
+  height: 180px;
+}
+
+.sidebar-item:nth-child(1) {
+  content: url("html-logo.64662cef.png");
+}
+
+.sidebar-item:nth-child(2) {
+  content: url("css-logo.a5a7740c.png");
+}
+
+.sidebar-item:nth-child(3) {
+  content: url("js-logo.9ef4f5cb.png");
+}
+
+.sidebar-item:nth-child(4) {
+  content: url("sass-logo.2ac60b04.png");
+}
+
+.main-section-item {
+  width: 100%;
+  height: 180px;
+  margin-left: 20px;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.main-section-item h1 {
+  text-align: center;
+  margin-top: 6px;
+  font-size: 40px;
+}
+
+.main-section-item p {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #971d6c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e32ca6;
+}
+
+/*# sourceMappingURL=index.34df27b5.css.map */

@@ -1,0 +1,6 @@
+@use '../abstracts/variables' as *;
+.logo {
+    width: 120px;
+    height: min-content;
+    content: url('/src/img/SassProject-logo.png');
+}
